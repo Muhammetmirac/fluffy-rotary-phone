@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
-@Configuration //benim configuration classım olacak. @Configuration anostasyonunu koyduk.
+@Configuration //benim configuration classım olacak. O yüzden @Configuration anostasyonunu koyduk.
 @EnableWebMvc // spring mvc ile çalışacağımı belirtmiş oluyor ve aktif edilmesini söylüyorum
 @ComponentScan("com.tpe") // spring taramanı yap bean ve compenentleri bul conteynere al ileride lazım oldugunda bana getir
 public class WebMvcConfig implements WebMvcConfigurer {
